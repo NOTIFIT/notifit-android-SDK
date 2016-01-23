@@ -21,7 +21,35 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ade35d-4b65-4e09-8cf0-1f51b35b558c" name="Default" comment="" />
+    <list default="true" id="a9ade35d-4b65-4e09-8cf0-1f51b35b558c" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\appcompat_v7_22_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\converter_gson_2_0_0_beta2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\gson_2_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\okhttp_2_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\okio_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\org_apache_http_legacy.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\play_services_base_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\play_services_basement_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\play_services_gcm_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\play_services_measurement_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\retrofit_2_0_0_beta2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\support_annotations_22_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\.idea\libraries\support_v4_22_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\United121\AndroidStudioProject\PushNotificationProject\app\src\main\java\cz\united121\pushnotificationproject\GcmListenerService.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notifit/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/notifit/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/InstanceIDListenerService.java" afterPath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/InstanceIDListenerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/JSONParser.java" afterPath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/JSONParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Notifit.java" afterPath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Notifit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/PostAsyncNetworkTask.java" afterPath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/PostAsyncNetworkTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/RegisterPushObject.java" afterPath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/RegisterPushObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/RegistrationIntentService.java" afterPath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/RegistrationIntentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/SharedPref.java" afterPath="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/SharedPref.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notifit/build.gradle" afterPath="$PROJECT_DIR$/notifit/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notifit/notifit.iml" afterPath="$PROJECT_DIR$/notifit/notifit.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="PushNotificationProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,31 +76,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="RegisterPushObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/RegisterPushObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notifit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Notifit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="80" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SharedPref.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/SharedPref.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GcmListenerService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/GcmListenerService.java">
+      <file leaf-file-name="ApplicationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notifit/src/androidTest/java/cz/united121/notifit/ApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/MainActivity.java">
+      <file leaf-file-name="NotifitService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/NotifitService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,51 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46077034">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5555553">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proguard-rules.pro" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <file leaf-file-name="RegistrationIntentService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/RegistrationIntentService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,17 +142,39 @@
         <entry file="file://$PROJECT_DIR$/notifit/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="53" />
+              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationIntentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/RegistrationIntentService.java">
+      <file leaf-file-name="JSONParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/JSONParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+              <caret line="36" column="78" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12125535">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="57" selection-end-column="104" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostAsyncNetworkTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/PostAsyncNetworkTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -156,6 +186,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -606,9 +637,9 @@
                 <option name="name" value="prepareComAndroidSupportSupportV42220Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.github.notifit:notifit:1.0.0" />
+                <option name="description" value="Prepare com.github.notifit:notifit:1.0.2" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComGithubNotifitNotifit100Library" />
+                <option name="name" value="prepareComGithubNotifitNotifit102Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services-base:8.3.0" />
@@ -1285,9 +1316,9 @@
                 <option name="name" value="prepareComAndroidSupportSupportV42220Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.github.notifit:notifit:1.0.0" />
+                <option name="description" value="Prepare com.github.notifit:notifit:1.0.2" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComGithubNotifitNotifit100Library" />
+                <option name="name" value="prepareComGithubNotifitNotifit102Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services-base:8.3.0" />
@@ -2143,7 +2174,7 @@
       <map>
         <entry key="$PROJECT_DIR$/../Anywhere/Fanliga" value="4327695886235" />
         <entry key="$PROJECT_DIR$/../Anywhere/WinWinJob/WinWinJob" value="4334942673431" />
-        <entry key="C:\Users\United121\AndroidStudioProject\PushNotificationProject" value="5811733308943" />
+        <entry key="C:\Users\United121\AndroidStudioProject\PushNotificationProject" value="5811836791914" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2702,26 +2733,29 @@
         <option value="$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/RegisterPushObject.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/MyGcmListenerService.java" />
         <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/PushLibraryBroadcastReceiver.java" />
-        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/InstanceIDListenerService.java" />
-        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/RegisterPushObject.java" />
-        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/JSONParser.java" />
         <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/App.java" />
         <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/SharedPreferences.java" />
-        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/SharedPref.java" />
-        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/RegistrationIntentService.java" />
         <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/GcmListenerService.java" />
-        <option value="$PROJECT_DIR$/notifit/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Notifit.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/GcmListenerService.java" />
         <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/PostAsync.java" />
-        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/PostAsyncNetworkTask.java" />
         <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/notifit/build/intermediates/res/merged/release/values-v23/values-v23.xml" />
-        <option value="$PROJECT_DIR$/notifit/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/GCMListenerService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/notifit/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/GcmListenerService.java" />
+        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/InstanceIDListenerService.java" />
+        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/NotifitService.java" />
+        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/listener/NotificationListener.java" />
+        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/RegistrationIntentService.java" />
+        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/PostAsyncNetworkTask.java" />
+        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/RegisterPushObject.java" />
+        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/SharedPref.java" />
+        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Notifit.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/MainActivity.java" />
+        <option value="$PROJECT_DIR$/notifit/build.gradle" />
+        <option value="$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/JSONParser.java" />
       </list>
     </option>
   </component>
@@ -2891,6 +2925,76 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="notifit" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PushNotificationProject" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notifit" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notifit" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PushNotificationProject" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notifit" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notifit" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PushNotificationProject" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notifit" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notifit" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listener" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3175,8 +3279,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38957477" sideWeight="0.5057307" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="483" y="237" width="399" height="264" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2345679" sideWeight="0.49426934" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56378603" sideWeight="0.49426934" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40192044" sideWeight="0.49713466" order="11" side_tool="false" content_ui="tabs" />
@@ -3195,7 +3300,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="483" y="237" width="399" height="264" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3449,67 +3553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/JSONParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/InstanceIDListenerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notifit/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/RegisterPushObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/PostAsyncNetworkTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Notifit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notifit/src/androidTest/java/cz/united121/notifit/ApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#305#306#0" expanded="false" />
-            <element signature="e#336#337#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3534,14 +3577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/RegistrationIntentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3558,10 +3593,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notifit/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/listener/NotificationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/InstanceIDListenerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/NotifitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/GCM/RegistrationIntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/PostAsyncNetworkTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notifit/src/androidTest/java/cz/united121/notifit/ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notifit/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="53" />
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Notifit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="80" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/RegisterPushObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -3569,34 +3686,26 @@
     <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/SharedPref.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/GcmListenerService.java">
+    <entry file="file://$PROJECT_DIR$/notifit/src/main/java/cz/united121/notifit/Network/JSONParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <caret line="36" column="78" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cz/united121/pushnotificationproject/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.12125535">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="57" selection-end-column="104" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46077034">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.google.gms.google-services'
 
 // This is the library version used when deploying the artifact
-version = "1.0.0"
+version = "1.0.2"
 
 android {
     compileSdkVersion 22
@@ -15,7 +15,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
-        versionName "1.0.0"
+        versionName "1.0.2"
     }
     buildTypes {
         release {
@@ -86,6 +86,8 @@ task sourcesJar(type: Jar) {
 task javadoc(type: Javadoc) {
     source = android.sourceSets.main.java.srcDirs
     classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+    destinationDir = file("../javadoc/")
+    failOnError false
 }
 
 task javadocJar(type: Jar, dependsOn: javadoc) {

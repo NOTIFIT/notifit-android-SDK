@@ -21,7 +21,7 @@ import cz.united121.notifit.RegisterPushObject;
 
 /**
  * Take from http://danielnugent.blogspot.cz/2015/06/updated-jsonparser-with.html
- * It is third-library independent solution to send JSON to server
+ * It is library independent solution to send JSON to server (to take care of limit lines in Android apps)
  * Created by Petr Lorenc[Lorenc55Petr@seznam.cz] on {12/29/2015}
  **/
 public class JSONParser {
@@ -33,6 +33,13 @@ public class JSONParser {
 	URL urlObj;
 	JSONObject jObj = null;
 
+	/**
+	 * Support only POST and GET, work only with RegisterPushObject derivates - create JSON object
+	 * @param url URL to send request
+	 * @param method POST or GET
+	 * @param registerPushObject Object to by map on JSONObject
+ 	 * @return JSONObject with all information from RegisterPushObject
+	 */
 	public JSONObject makeHttpRequest(String url, String method,
 									  RegisterPushObject registerPushObject) {
 

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.util.Log;
 
 /**
+ * Maintain refresh of the token
  * Created by Petr Lorenc[Lorenc55Petr@seznam.cz] on {11/11/2015}
  **/
 public class InstanceIDListenerService extends com.google.android.gms.iid.InstanceIDListenerService {

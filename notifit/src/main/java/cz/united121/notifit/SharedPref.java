@@ -22,9 +22,9 @@ public class SharedPref {
 	/**
 	 * Save String to SP
 	 *
-	 * @param tag
-	 * @param value
-	 * @param context
+	 * @param tag Tag is key in Key/Value
+	 * @param value Value is value in Key/Value
+	 * @param context Context
 	 */
 	public static void putString(String tag, String value, Context context) {
 		SharedPreferences.Editor editor = getPref(context).edit();
@@ -35,8 +35,8 @@ public class SharedPref {
 	/**
 	 * Get String from SP
 	 *
-	 * @param tag
-	 * @param context
+	 * @param tag Tag is key in Key/Value
+	 * @param context Context
 	 * @return String found by tag or null otherwise
 	 */
 	public static String getString(String tag, Context context) {

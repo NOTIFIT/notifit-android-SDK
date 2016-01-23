@@ -36,7 +36,17 @@ public class RegisterPushObject implements Serializable {
 	public String DeviceProduct; //Locale.getDefault().getDisplayLanguage();
 	public String DeviceProductName = "DeviceProduct";
 
-
+	/**
+	 * Object to be map on JSONObject
+	 * @param projectToken ProjectToken - from server
+	 * @param appToken AppToken - from server
+	 * @param deviceToken Device token - from device
+	 * @param apiLevel apiLevel - from device
+	 * @param device device - from device
+	 * @param model model - from device
+	 * @param product product - from device
+	 * @param language language - from device
+	 */
 	public RegisterPushObject(String projectToken, String appToken, String deviceToken, String apiLevel, String device, String model, String product, String language) {
 		ProjectToken = projectToken;
 		AppToken = appToken;

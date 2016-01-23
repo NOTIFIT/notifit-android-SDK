@@ -17,6 +17,7 @@ import cz.united121.notifit.RegisterPushObject;
 import cz.united121.notifit.SharedPref;
 
 /**
+ * Register device to the server and send him all necessary information to filter device on server side
  * Created by Petr Lorenc[Lorenc55Petr@seznam.cz] on {11/11/2015}
  **/
 public class RegistrationIntentService extends IntentService {
