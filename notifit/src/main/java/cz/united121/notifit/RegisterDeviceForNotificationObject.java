@@ -11,14 +11,11 @@ import cz.united121.notifit.Network.IJson;
  * Send to server
  * Created by Petr Lorenc[Lorenc55Petr@seznam.cz] on {12/16/2015}
  **/
-public class RegisterPushObject implements Serializable, IJson {
-	public static final String TAG = RegisterPushObject.class.getName();
+public class RegisterDeviceForNotificationObject implements Serializable, IJson {
+	public static final String TAG = RegisterDeviceForNotificationObject.class.getName();
 
-	public String ProjectToken;
-	public String ProjectTokenName = "ProjectToken";
-
-	public String AppToken;
-	public String AppTokenName = "ApplicationToken";
+	public String DeviceToken;
+	public String DeviceTokenName = "NotificationToken";
 
 	public String DeviceApiLevel;
 	public String DeviceApiLevelName = "DeviceApiLevel";
@@ -37,17 +34,15 @@ public class RegisterPushObject implements Serializable, IJson {
 
 	/**
 	 * Object to be map on JSONObject
-	 * @param projectToken ProjectToken - from server
-	 * @param appToken AppToken - from server
+	 * @param deviceToken Device token - from device
 	 * @param apiLevel apiLevel - from device
 	 * @param device device - from device
 	 * @param model model - from device
 	 * @param product product - from device
 	 * @param language language - from device
 	 */
-	public RegisterPushObject(String projectToken, String appToken, String apiLevel, String device, String model, String product, String language) {
-		ProjectToken = projectToken;
-		AppToken = appToken;
+	public RegisterDeviceForNotificationObject(String deviceToken, String apiLevel, String device, String model, String product, String language) {
+		DeviceToken = deviceToken;
 		DeviceApiLevel = apiLevel;
 		DeviceOperatingSystemVersion = device;
 		DeviceModel = model;
@@ -58,8 +53,7 @@ public class RegisterPushObject implements Serializable, IJson {
 	public JSONObject getJson(){
 		JSONObject jsonObject = new JSONObject();
 		try {
-			jsonObject.put(ProjectTokenName,ProjectToken);
-			jsonObject.put(AppTokenName,AppToken);
+			jsonObject.put(DeviceTokenName,DeviceToken);
 			jsonObject.put(DeviceApiLevelName,DeviceApiLevel);
 			jsonObject.put(DeviceOperatingSystemVersionName,DeviceOperatingSystemVersion);
 			jsonObject.put(DeviceModelName,DeviceModel);

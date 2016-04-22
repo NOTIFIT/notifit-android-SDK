@@ -2,9 +2,6 @@ package cz.united121.notifit;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
-
-import java.lang.ref.WeakReference;
 
 import cz.united121.notifit.GCM.RegistrationIntentService;
 import cz.united121.notifit.GCM.listener.NotificationListener;

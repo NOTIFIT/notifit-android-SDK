@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PushNotificationProject.iml" filepath="$PROJECT_DIR$/PushNotificationProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/notifit/notifit.iml" filepath="$PROJECT_DIR$/notifit/notifit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notifit-android-SDK.iml" filepath="$PROJECT_DIR$/notifit-android-SDK.iml" />
     </modules>
   </component>
 </project>

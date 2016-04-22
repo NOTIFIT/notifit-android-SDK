@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 
 		if (checkPlayServices()) {
 			Log.d(TAG, "checkPlayServices=" + true);
-			Notifit.register("ee854de0-95ad-e511-9427-00155d000710", "5a77c122-099a-e511-9426-00155d000710", this, new NotificationListener() {
+			Notifit.register("55359807-7076-48a1-af4d-1718dc31c813","9a4598cf-9aef-4d5a-9da6-8fec620a2880", this, new NotificationListener() {
 				@Override
 				public void showNotification(String from, Bundle data) {
 					Log.d(TAG, "showNotification");
@@ -45,9 +45,9 @@ public class MainActivity extends Activity {
 
 					Uri defaultSoundUri= RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 					NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(MainActivity.this)
-							.setSmallIcon(cz.united121.notifit.R.drawable.common_google_signin_btn_icon_dark)
-							.setContentTitle(title + " LIB")
-							.setContentText(message + " LIB")
+							.setSmallIcon(R.drawable.notifit_logo)
+							.setContentTitle(title)
+							.setContentText(message)
 							.setAutoCancel(true)
 							.setSound(defaultSoundUri)
 							.setContentIntent(pendingIntent);

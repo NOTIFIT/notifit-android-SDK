@@ -2,17 +2,21 @@ package cz.united121.notifit.GCM;
 
 import android.app.IntentService;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.util.Log;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.google.android.gms.iid.InstanceID;
 
+import org.json.JSONObject;
+
 import java.util.Locale;
 
-import cz.united121.notifit.Network.PostAsyncNetworkTask;
+import cz.united121.notifit.Network.PostNetworkTask;
 import cz.united121.notifit.Notifit;
 import cz.united121.notifit.R;
+import cz.united121.notifit.RegisterDeviceForNotificationObject;
 import cz.united121.notifit.RegisterPushObject;
 import cz.united121.notifit.SharedPref;
 
@@ -43,7 +47,12 @@ public class RegistrationIntentService extends IntentService {
 			Log.d(TAG, "GCM Registration Token: " + token);
 
 			savedRegistrationToSP(token);
-			sendRegistrationToServer(token);
+			SharedPreferences myPrefs = getSharedPreferences("NOTIFIT", MODE_PRIVATE);
+			String communicationToken = myPrefs.getString("CommunicationToken", null);
+			if(communicationToken == null) {
+				sendRegistrationToServer();
+			}
+			sendDeviceUpdateToServer(token, communicationToken);
 
 		} catch (Exception e) {
 			Log.d(TAG, "Failed to complete token refresh", e);
@@ -56,12 +65,38 @@ public class RegistrationIntentService extends IntentService {
 
 	/**
 	 * Send token and necessary data to server with additional information
-	 * @param token The new token.
 	 */
-	private void sendRegistrationToServer(String token) {
+	private void sendRegistrationToServer() {
 		RegisterPushObject registerPushObject = new RegisterPushObject(
 				Notifit.PROJECT_TOKEN,
 				Notifit.APP_TOKEN,
+				Build.VERSION.SDK_INT + "",
+				Build.DEVICE,
+				Build.MODEL,
+				Build.PRODUCT,
+				Locale.getDefault().getDisplayLanguage()
+		);
+
+		JSONObject result = new PostNetworkTask<RegisterPushObject>(registerPushObject, "http://notifit.io/api/DeviceAndroid", "POST", null).Send();
+		if (result != null) {
+			try{
+			String communicationToken =  result.getString("CommunicationToken");
+				SharedPreferences myPrefs = getSharedPreferences("NOTIFIT", MODE_PRIVATE);
+				SharedPreferences.Editor e = myPrefs.edit();
+				e.putString("CommunicationToken", communicationToken);
+				e.commit();
+			} catch (Exception e) {
+				return;
+			}
+		}
+	}
+
+	/**
+	 * Send token and necessary data to server with additional information
+	 * @param token The new token.
+	 */
+	private void sendDeviceUpdateToServer(String token, String communicationToken) {
+		RegisterDeviceForNotificationObject updatePushObject = new RegisterDeviceForNotificationObject(
 				token,
 				Build.VERSION.SDK_INT + "",
 				Build.DEVICE,
@@ -69,7 +104,8 @@ public class RegistrationIntentService extends IntentService {
 				Build.PRODUCT,
 				Locale.getDefault().getDisplayLanguage()
 		);
-		new PostAsyncNetworkTask(registerPushObject).execute();
+
+		JSONObject result = new PostNetworkTask<RegisterDeviceForNotificationObject>(updatePushObject, "http://notifit.io/api/DeviceAndroid", "PUT", communicationToken).Send();
 
 	}
 }

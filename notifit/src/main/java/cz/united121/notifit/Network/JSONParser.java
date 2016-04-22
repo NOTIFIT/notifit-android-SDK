@@ -11,20 +11,15 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLEncoder;
-import java.util.HashMap;
-
-import cz.united121.notifit.RegisterPushObject;
 
 /**
  * Take from http://danielnugent.blogspot.cz/2015/06/updated-jsonparser-with.html
  * It is library independent solution to send JSON to server (to take care of limit lines in Android apps)
  * Created by Petr Lorenc[Lorenc55Petr@seznam.cz] on {12/29/2015}
  **/
-public class JSONParser {
+public class JSONParser<T extends IJson> {
 
 	String charset = "UTF-8";
 	HttpURLConnection conn;
@@ -40,10 +35,9 @@ public class JSONParser {
 	 * @param registerPushObject Object to by map on JSONObject
  	 * @return JSONObject with all information from RegisterPushObject
 	 */
-	public JSONObject makeHttpRequest(String url, String method,
-									  RegisterPushObject registerPushObject) {
+	public JSONObject makeHttpRequest(String url, String method, T registerPushObject, String communicationToken) {
 
-		if (method.equals("POST")) {
+		if ((method.equals("POST") || method.equals("PUT"))) {
 			// request method is POST
 			try {
 				urlObj = new URL(url);
@@ -52,10 +46,13 @@ public class JSONParser {
 
 				conn.setDoOutput(true);
 
-				conn.setRequestMethod("POST");
+				conn.setRequestMethod(method);
 
 				conn.setRequestProperty("Accept-Charset", charset);
 				conn.setRequestProperty("Content-Type", "application/json");
+				if(communicationToken != null) {
+					conn.setRequestProperty("Communication-Token", communicationToken);
+				}
 
 				conn.setReadTimeout(10000);
 				conn.setConnectTimeout(15000);
@@ -63,7 +60,8 @@ public class JSONParser {
 				conn.connect();
 
 				wr = new DataOutputStream(conn.getOutputStream());
-				wr.writeBytes(registerPushObject.getJson().toString());
+				String json = registerPushObject.getJson().toString();
+				wr.writeBytes(json);
 				wr.flush();
 				wr.close();
 
@@ -72,8 +70,6 @@ public class JSONParser {
 			}
 		} else if (method.equals("GET")) {
 			// request method is GET
-
-
 			try {
 				urlObj = new URL(url);
 
